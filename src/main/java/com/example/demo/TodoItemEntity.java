@@ -14,7 +14,7 @@ import jakarta.persistence.Table;
 //テーブル名
 @Table(name = "todo_items")
 public class TodoItemEntity {
-
+//プライマリーキーを設定
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

@@ -4,6 +4,7 @@ import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 //CORSの設定
 //REACTからのリクエストを受ける為に設定（通常セキュリティによりブロックされてしまう）
+
 @Configuration
 public class WebConfig implements WebMvcConfigurer {
 
